@@ -1,2 +1,12 @@
 (executable
- (name main))
+ (name main)
+ (modules main)
+ (flags (:standard -warn-error -A))
+ )
+
+(executable
+ (name test)
+ (libraries straightline)
+ (modules test)
+ (flags (:standard -warn-error -A))
+ )

@@ -1,0 +1,1 @@
+let p1 = Ast.PrintStm [NumExp 8.0]
